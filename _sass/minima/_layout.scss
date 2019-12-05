@@ -35,6 +35,12 @@
   color: #AAA;
 }
 
+thead {
+  position: sticky;
+  z-index: 999;
+  top: 0;
+}
+
 .site-nav {
   position: absolute;
   top: 9px;
