@@ -311,3 +311,7 @@ thead {
     width:         calc(50% - (#{$spacing-unit} / 2));
   }
 }
+
+iframe {
+  max-width: 100%;
+}
