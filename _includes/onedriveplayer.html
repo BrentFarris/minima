@@ -1,10 +1,6 @@
 <div class="embed-container">
-  <iframe
-      src="https://onedrive.live.com/embed?{{ include.id }}"
-      width="640"
-      height="480"
-      frameborder="0"
-      scrolling="no"
-      allowfullscreen>
-  </iframe>
+  <video controls controlsList="nodownload" width="640" height="480">
+    <source src="https://onedrive.live.com/download?{{ include.id }}" type="video/mp4" />
+      Your browser does not support the video tag.
+  </video>
 </div>
